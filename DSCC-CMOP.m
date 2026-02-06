@@ -1,4 +1,4 @@
-classdef TC-CMO < ALGORITHM
+classdef DSCC-CMOP < ALGORITHM
 % <multi> <real/integer/label/binary/permutation> <constrained>
 % local auxiliary task-based constrained multiobjective optimization
 
