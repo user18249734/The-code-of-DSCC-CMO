@@ -1,11 +1,11 @@
-# TC-CMO
-The code of the TC-CMO algorithm
+# DSCC-CMOP
+The code of the DSCC-CMOP algorithm
 # DSCC-CMOP
 MATLAB source code for the **Dynamic Scaling Cooperative Co-evolutionary Algorithm for Constrained Multi-objective Problems (DSCC-CMOP)**, a decomposition-based multi-population evolutionary algorithm for constrained multi-objective optimization problems (CMOPs).
 
 ## Citation Note
 If you use this code in your research, please cite the following paper:
-> Yufeng Wang, Kaibin Du. A decomposition-based multi-population evolutionary algorithm for solving constrained multi-objective optimization problems. Expert Systems with Applications.
+> Yufeng Wang, Kaibin Du. A decomposition-based multi-population evolutionary algorithm for solving constrained multi-objective optimization problems. 
 
 Your cooperation is highly appreciated!
 
@@ -16,8 +16,8 @@ This project provides MATLAB implementation of DSCC-CMOP, which is specifically 
 - Angle-based neighborhood search strategy
 
 ## File Descriptions
-### TC-CMO.m
-**Core Function**: Implements the core logic of the TC-CMO algorithm
+### DSCC-CMOP.m
+**Core Function**: Implements the core logic of the DSCC-CMOP algorithm
 **Core Features**:
 1. Initialize three populations (P₁, P₂ and P₄)
 2. Calculate the weight vectors (RW) and the neighborhood relation matrix (B)
@@ -49,7 +49,7 @@ This project provides MATLAB implementation of DSCC-CMOP, which is specifically 
 ### EnvironmentalSelection_LAT.m
 **Core Function**: Environmental selection for local auxiliary tasks (combines dynamic constraint boundaries to construct the next-generation population for local auxiliary tasks)
 **Core Features**:
-1. Calculate the total constraint violation degree of individuals and screen the candidate population according to the dynamic constraint boundary (VAR)
+1. Calculate the total constraint violation degree of individuals and screen the candidate population according to the dynamic constraint boundary 
 2. Call the fitness calculation function to solve individual fitness values by combining objective values and constraint violation degrees
 3. Implement differentiated screening logic based on the relationship between the candidate population size and the target size N
 4. Call the truncation function to eliminate individuals with high crowding degree for diversity maintenance when the population scale is excessive
